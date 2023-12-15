@@ -1,0 +1,103 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Styling for the login form */
+.log_in {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.log_in_info {
+    text-align: center;
+}
+
+.log_in_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.log_in_item {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#LOGIN,
+#UnLogin {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#LOGIN:hover,
+#UnLogin:hover {
+    background-color: #555;
+}
+
+/* Styling for the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 0;
+    }
+}
